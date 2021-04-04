@@ -1,0 +1,174 @@
+
+body {
+	padding:50px;
+}
+
+h3 {
+	padding-top: 20px;
+	padding-bottom: 50px;
+	letter-spacing: 2px;
+}
+
+* {
+	color: slategrey;
+}
+
+.container{
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.move {
+	margin: 2em;
+	width: 150px;
+	height: 50px;
+	padding: 10px 15px;
+	background-color: lavenderblush;
+	color: slategrey;
+	text-align: center;
+	border-radius: .5em;
+	transition-property: translate();
+	transition-duration: 3s;
+}
+
+#ease {	
+	transition-timing-function: ease;	
+}
+
+#linear {	
+	transition-timing-function: linear;
+}
+
+#ease-in {	
+	transition-timing-function: ease-in;	
+}
+
+#ease-out {	
+	transition-timing-function: ease-out;	
+}
+
+#ease-in-out {
+	transition-timing-function: ease-in-out;	
+}
+
+.move:hover {
+	transform: translate(900px, 0);
+}
+
+/* SECTION ONE */
+
+#hover-transition {
+	height: 90px;
+	width: 290px;
+	font-size: 28px;
+	color: slategrey;
+	border: none;
+	background-color: lavender;
+	transition: all 3s ease-in 2s
+}
+
+#hover-transition:hover {
+	background-color: lemonchiffon;
+	color: black;
+	border-radius: 50%;
+}
+
+/* SECTION TWO */
+#section-two div {
+	height: 50px;
+	width: 200px;
+	margin: 20px;
+	color: slategrey;
+	border: none;
+	border-radius: .5em;
+	background-color: lavenderblush;
+	line-height: 50px;
+	text-align: center;
+	transition: all 1s;
+}
+
+#section-two .background:hover {
+	background-color: powderblue;
+}
+
+#section-two .color:hover {
+	color: red;
+}
+
+#section-two .font-size:hover {
+	font-size: 32px;
+}
+
+#section-two .height:hover {
+	height: 120px;
+}
+
+#section-two .width:hover {
+	width: 340px;
+}
+
+#section-two .letter-spacing:hover {
+	letter-spacing: 5px;
+}
+
+#section-two .line-height:hover {
+	line-height: 120px;
+}
+
+#section-two .margin-bottom:hover {
+	margin-bottom: 50px;
+}
+
+#section-two .margin-top:hover {
+	margin-top: 50px;
+}
+
+#section-two .opacity:hover {
+	opacity: .3;
+}
+
+#section-two .padding:hover {
+	padding: 40px;
+}
+
+#section-two .border-color, #section-two .border-width:hover {
+	border: 6px solid green;
+}
+
+#section-two .border-color:hover {
+	border-color: red;
+}
+
+#section-two div.border-width:hover {
+	border-width: 12px;
+}
+
+/* SECTION THREE */
+#section-three div {
+	height: 150px;
+	width: 150px;
+	background-color: lavender;
+	color: rebeccapurple;
+	line-height: 150px;
+	text-align: center;
+	font-size: 24px;
+	margin: 20px;
+	transition: transform 1s;
+}
+
+#section-three .scale:hover {
+	transform: scale(1.2);
+}
+
+#section-three .translate:hover {
+	transform: translateX(320px);
+}
+
+#section-three .rotate:hover {
+	transform: rotate(180deg);
+}
+
+#section-three .skew:hover {
+	transform: skew(20deg);
+}
+
